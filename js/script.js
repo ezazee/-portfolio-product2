@@ -117,10 +117,7 @@
                             duration: node.getAttribute('data-duration') || 1000
                         }),
                         scrollHandler = (function() {
-                            if (Util.inViewport(this) && !this.classList.contains('animated-first')) {
-                                this.counter.run();
-                                this.classList.add('animated-first');
-                            }
+                            
                         }).bind(node),
                         blurHandler = (function() {
                             this.counter.params.to = parseInt(this.textContent, 10);
