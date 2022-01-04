@@ -1,3 +1,7 @@
+body{
+    overflow-x: hidden;
+}
+
 .text-light {
     font-weight: 300;
 }
@@ -5053,7 +5057,7 @@ html [class*='section-'].section-bottom-0 {
 }
 
 .bg-primary {
-    background-color: rgb(255, 110, 1);
+    background-color: #dc2f02;
 }
 
 .bg-primary:not([style*="background-"])+.bg-primary:not([style*="background-"]) {
