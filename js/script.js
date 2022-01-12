@@ -1226,3 +1226,5 @@ $(".carousel").swipe({
                 },
                 allowPageScroll: "vertical" 
             });
+
+            
