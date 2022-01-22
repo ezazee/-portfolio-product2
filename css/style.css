@@ -12791,7 +12791,7 @@ padding: 100%
 	font-size: 40px;
 }
 .clients {
-	padding: 50px 0;
+	padding: 35px 0;
 }
 .box {
 	display: grid;
@@ -13616,4 +13616,37 @@ padding: 100%
     transition: ease-in-out 0.5s;
     transform: scale(1.05);
     box-shadow: 0 4px 10px #888888;
+}
+
+p.big{
+    color: #000;
+}
+
+.btn-merchant a{
+    color: #fff;
+}
+
+.btn-merchant a:hover{
+    color: #E85D04;
+}
+
+.section-heading.text-center h2{
+    font-family: 'Poppins';
+    color: #E85D04;
+}
+.section-heading.text-center p{
+    font-family: 'Poppins';
+    color: #000;
+}
+
+.fitur{
+    margin-top: 150px
+}
+
+.footer-classic-main{
+    background-color: #001D3D;
+}
+
+.footer-classic-aside{
+    background-color: #001D3D;
 }
