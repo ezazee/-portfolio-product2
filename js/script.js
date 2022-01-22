@@ -1227,4 +1227,5 @@ $(".carousel").swipe({
                 allowPageScroll: "vertical" 
             });
 
-            
+
+    
