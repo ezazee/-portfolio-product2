@@ -4821,7 +4821,7 @@ html [class*='section-'].section-bottom-0 {
         padding-bottom: 100px;
     }
     .section-md {
-        padding: 90px 0;
+        padding: 25px 0;
     }
     .section-md-bottom-50 {
         padding-bottom: 50px;
@@ -12007,8 +12007,8 @@ box-title-desc .title {
 
 
 .section-padding30 {
-    padding-top: 90px;
-    padding-bottom: 90px
+    padding-top: 10px;
+    padding-bottom: 22px
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -12471,15 +12471,16 @@ padding: 100%
 }
 
 .card{
-    background-color: #FF7800;
+    background-color: #fff;
     width: 300px;
     padding: 15px;
     margin: 15px 0;
+    border: 1px solid #F96B37;
 }
 
 .card .imgContainer{
     width: 100%;
-    height: 300px;
+    height: 270px;
     border: 1px solid #ccc;
     overflow: hidden;
     position: relative;
@@ -12519,14 +12520,14 @@ padding: 100%
 }
 
 .infoBox .tittle a:hover{
-    color: #fff;
+    color: #FF4500;
 }
 
 .infoBox .price{
     font-size: 22px;
     font-weight: 500;
     font-family: 'Poppins', sans-serif;
-    color: #fff;
+    color: #000;
 }
 
 .infoBox .buttonGroup{
@@ -12546,7 +12547,7 @@ padding: 100%
 }
 
 .infoBox .buttonGroup button.buy{
-    background-color: #ff9f00;
+    background-color: #E85D04;
     transition: 0.5s;
     border-radius: 5px;
 }
@@ -12556,12 +12557,13 @@ padding: 100%
 }
 
 .infoBox .buttonGroup button.buy:hover{
+    border: 1px solid #E85D04;
     background-color: #fff;
     color: #ff9f00;
 }
 
 .infoBox .buttonGroup button.buy a:hover{
-    color: #ff9f00;
+    color: #E85D04;
 }
 
 .judul{
@@ -12791,7 +12793,7 @@ padding: 100%
 	font-size: 40px;
 }
 .clients {
-	padding: 35px 0;
+	padding: 100px 0;
 }
 .box {
 	display: grid;
@@ -13598,7 +13600,7 @@ padding: 100%
 /* END BTN STYLE */	
 
 .row-fitur{
-    margin-top: 100px;
+    margin-top: 50px;
     display: flex;
     flex-wrap: wrap;
     margin-right: -15px;
@@ -13640,7 +13642,7 @@ p.big{
 }
 
 .fitur{
-    margin-top: 150px
+    margin-top: 100px
 }
 
 .footer-classic-main{
