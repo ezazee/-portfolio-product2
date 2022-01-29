@@ -13652,3 +13652,55 @@ p.big{
 .footer-classic-aside{
     background-color: #001D3D;
 }
+
+.list-marked-layanan {
+    text-align: left;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.35;
+    color: #31404a;
+}
+
+.list-marked-layanan>li {
+    position: relative;
+    padding-left: 25px;
+}
+
+.list-marked-layanan>li::before {
+    content: '\f00c';
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: inline-block;
+    font-family: "FontAwesome";
+    color: #f16583;
+}
+
+.list-marked-layanan>li+li {
+    margin-top: 10px;
+}
+
+@media (min-width: 1200px) {
+    .list-marked-layanan>li {
+        padding-left: 30px;
+    }
+    .list-marked-layanan>li+li {
+        margin-top: 16px;
+    }
+}
+
+*+.list-marked-layanan {
+    margin-top: 16px;
+}
+
+@media (min-width: 1200px) {
+    *+.list-marked-layanan {
+        margin-top: 30px;
+    }
+}
+
+@media (min-width: 1600px) {
+    *+.list-marked-layanan {
+        margin-top: 43px;
+    }
+}
