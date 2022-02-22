@@ -46,6 +46,16 @@
     </div>
     <!-- End Loader -->
 
+    <!-- Popup -->
+    <div class="popup">
+        <div class="popup__content">
+          <a href="#"><img class="popup__image" src="images/Driver-01.png" alt="Popup Iklan"></a>
+          <img style="cursor: pointer;" class="popup__dismiss" src="images/btn-close.png" alt="Close">
+          <img class="popup__shop" src="images/btn-shop.png" alt="Shop">
+        </div>
+      </div>
+      <!-- Akhir Popup -->
+
     <!-- NAVBAR -->
     <div class="page">
         <header class="section page-header rd-navbar-transparent-wrap">
@@ -77,7 +87,7 @@
                                             </li>
                                             <li class="rd-nav-item"><a class="rd-nav-link" href="#">Merchant</a>
                                             </li>
-                                            <li class="rd-nav-item"><a class="rd-nav-link" href="#">Driver</a>
+                                            <li class="rd-nav-item"><a class="rd-nav-link" href="/html/driver.html">Driver</a>
                                             </li>
                                             <li class="rd-nav-item"><a class="rd-nav-link" href="#">Help</a>
                                             </li>
@@ -94,8 +104,6 @@
         <!-- END NAVBAR -->
 
         <!-- HERO SECTION -->
-        <!--Swiper-->
-        <!--Swiper-->
         <section class=" section swiper-container swiper-slider swiper-slider-1 context-dark" data-loop="true" data-autoplay="5000" data-simulate-touch="true">
             <div class="swiper-wrapper">
                 <div class="swiper-slide" data-slide-bg="images/bg1.jpg">
@@ -458,7 +466,7 @@
                         <div class="service-cap">
                             <h4><a href="# ">Pembayaran</a></h4>
                             <p style="color: #000;">
-                                Untuk mempermudah pengguna layanan KitaGarut Terdapat layanan pembaayaran secara digital seperti :
+                                Untuk mempermudah pengguna layanan KitaGarut Terdapat layanan pembayaran secara digital seperti :
                                 <ul class="list-marked-2">
                                     <li>PPOB (Payment Point Online Bank)</li>
                                     <li>Tagihan Listrik, PDAM, Indihome</li>
@@ -1377,7 +1385,30 @@
             }
         });
     </script>
-    <!--coded by Starlight-->
+
+    <script>
+        var popup = document.querySelector(".popup");
+        var dismiss = document.querySelector(".popup__dismiss");
+        var shop = document.querySelector(".popup__shop");
+    
+        setTimeout(function(){
+          popup.classList.add("popup--show");
+        },3000);
+    
+        dismiss.addEventListener("click",function(){
+          console.log("kil dismiss");
+          popup.classList.remove("popup--show");
+          popup.classList.add("popup--close");
+        })
+    
+        shop.addEventListener("click",function(){
+          console.log("kil shop");
+          popup.classList.remove("popup--show");
+          popup.classList.add("popup--close");
+          alert("Selamat anda dapat diskon");
+        })
+    
+      </script>
 </body>
 
 </html>

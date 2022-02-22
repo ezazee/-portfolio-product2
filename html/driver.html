@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Driver KitaGarut</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link rel="icon" href="/images/KitaGarut/Kitagarut.ico" type="image/x-icon">
+        <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,900">
+        <link rel="stylesheet" href="/css/bootstrap.css">
+        <link rel="stylesheet" href="/css/font-awesome.css">
+        <link rel="stylesheet" href="/css/fonts.css">
+        <link rel="stylesheet" href="/css/style.css">
+        <link rel="stylesheet" href="/css/driver.css">
+        <link rel="stylesheet" href="/css/responsive.css">
+        <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/master/devicon.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer"
+        />
+        <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" rel="stylesheet">
+    </head>
+<body>
+        <!-- Loader -->
+        <div class="preloader">
+            <div class="preloader-body">
+                <div class="loader">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+                <p>Sedang Loading.....</p>
+            </div>
+        </div>
+        <!-- End Loader -->
+    
+        <!-- Popup -->
+        <div class="popup">
+            <div class="popup__content">
+              <a href="#"><img class="popup__image" src="/images/poster.jpeg" alt="Popup Iklan"></a>
+              <img style="cursor: pointer;" class="popup__dismiss" src="/images/btn-close.png" alt="Close">
+            </div>
+          </div>
+          <!-- Akhir Popup -->
+    
+        <!-- NAVBAR -->
+        <div class="page">
+            <header class="section page-header rd-navbar-transparent-wrap">
+                <!--RD Navbar-->
+                <div class="rd-navbar-wrap">
+                    <nav class="rd-navbar rd-navbar-transparent" data-layout="rd-navbar-fixed" data-sm-layout="rd-navbar-fixed" data-md-layout="rd-navbar-fixed" data-md-device-layout="rd-navbar-fixed" data-lg-layout="rd-navbar-static" data-lg-device-layout="rd-navbar-static"
+                        data-xl-layout="rd-navbar-static" data-xl-device-layout="rd-navbar-static" data-lg-stick-up-offset="20px" data-xl-stick-up-offset="20px" data-xxl-stick-up-offset="20px" data-lg-stick-up="true" data-xl-stick-up="true" data-xxl-stick-up="true">
+                        <div class="rd-navbar-collapse-toggle rd-navbar-fixed-element-1" data-rd-navbar-toggle=".rd-navbar-collapse"><span></span></div>
+                        <div class="rd-navbar-main-outer">
+                            <div class="rd-navbar-main-inner">
+                                <div class="rd-navbar-main">
+                                    <!--RD Navbar Panel-->
+                                    <div class="rd-navbar-panel">
+                                        <!--RD Navbar Toggle-->
+                                        <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar-nav-wrap"><span></span></button>
+                                        <!--RD Navbar Brand-->
+                                        <div class="rd-navbar-brand">
+                                            <!--Brand-->
+                                            <a class="brand" href="/index.html"><img class="brand-logo-dark" src="/images/KitaGarut/logo kitagarut wide.png" alt="" width="146" height="22" /><img class="brand-logo-light" src="/images/KitaGarut/logo kitagarut wide.png" alt="" width="155" height="22"
+                                                /></a>
+                                        </div>
+                                    </div>
+                                    <div class="rd-navbar-main-elementrd-navbar-main-element">
+                                        <div class="rd-navbar-nav-wrap">
+                                            <ul class="rd-navbar-nav">
+                                                <li class="rd-nav-item"><a class="rd-nav-link" href="/index.html">Home</a>
+                                                </li>
+                                                <li class="rd-nav-item"><a class="rd-nav-link" href="#">About Us</a>
+                                                </li>
+                                                <li class="rd-nav-item"><a class="rd-nav-link" href="#">Merchant</a>
+                                                </li>
+                                                <li class="rd-nav-item active"><a class="rd-nav-link" href="#">Driver</a>
+                                                </li>
+                                                <li class="rd-nav-item"><a class="rd-nav-link" href="#">Help</a>
+                                                </li>
+                                                <li class="rd-nav-item"><a class="btn" target="_blank" href="https://play.google.com/store/apps/details?id=com.mykitabela.kitabela">Download APK</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </header>
+            <!-- END NAVBAR -->
+
+            <!-- HERO -->
+           <section class="hero-bg">
+               <div class="container">
+                   <div class="hero row">
+                       <div class="text-hero">
+                           <h1>Apa itu Driver KitaGarut</h1>
+                           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit labore vitae cum, quasi placeat velit cupiditate ullam illo eligendi minus, atque voluptates vel, tempore deserunt. Laboriosam quibusdam blanditiis provident eius!</p>
+                       </div>
+                       <div class="btns row">
+                        <a href="#" class="btn">Hubungi CS</a>
+                    </div>
+                   </div>
+               </div>
+           </section>
+           <!-- End Hero -->
+
+             
+    <!-- Our Mission-->
+    <section class="section bg-default section-md">
+        <div class="container">
+            <div class="row row-30">
+                <div class="col-md-6">
+                    <h2 class="title-icon"><span><strong style="color: #FF4500;">Driver </strong> <span class="text-light"></span></span>
+                    </h2>
+                    <p class="big">Driver KitaGarut merupakan sarana transportasi umum secara online yang mengunakan sepeda motor sebagai sarana pengangkutnya yang dapat dipesan menggunakan Aplikasi KitaGarut, dan terdapat beberapa Fitur Layanan
+                    </p>
+                    <!-- <ul class="list-marked-2">
+                        <li>Membuat Portofolio nya Garut</li>
+                        <li>Mengenalkan Aplikasi pada Nasional bahkan Internasional</li>
+                        <li>Memaksimalkan Experience Aplikasi</li>
+                    </ul> -->
+
+                    <img width="500px" src="/images/KitaGarut/ilustrasi WEB-01.jpg" alt="Gabung Merchant">
+                </div>
+                <div class="col-md-6">
+                    <div class="row">
+                        <div class="col-6">
+                            <!--Box counter-->
+                            <div class="box-counter">
+                                <div class="box-counter-main">
+                                    <div class="counter">120+</div>
+                                </div>
+                                <p class="box-counter-title">Mitra Merchant</p>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <!--Box counter-->
+                            <div class="box-counter">
+                                <div class="box-counter-main">
+                                    <div class="counter">50+</div>
+                                </div>
+                                <p class="box-counter-title">Mitra Driver</p>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <!--Box counter-->
+                            <div class="box-counter">
+                                <div class="box-counter-main">
+                                    <div class="counter">1RB+</div>
+                                </div>
+                                <p class="box-counter-title">User Download</p>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <!--Box counter-->
+                            <div class="box-counter">
+                                <div class="box-counter-main">
+                                    <div class="counter">10</div>
+                                </div>
+                                <p class="box-counter-title">Partner Bisnis</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="button  btn-merchant"><a target="_blank" href="https://play.google.com/store/apps/details?id=com.mykitabela.kitabelapartner">Gabung Driver Sekarang</a></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+           <!-- Persyaratan -->
+           <section class="section section-lg bungkus-fitur bg-gray-100">
+            <div class="container text-center text-lg-left">
+              <h2><span class="text-bold text-white">Gabung Driver Mana nih ?</h2>
+              <div class="row mt-5 justify-content-center flex-wrap row-30 number-counter-2">
+                <div class="col-md-4">
+                  <div class="box-numbered-left unit">
+                    <div class="unit-body">
+                      <img src="https://lelogama.go-jek.com/prime/upload/image/driver-goride.svg" alt="">
+                      <div class="content">Anter pesanan makanan kamu kemanapun dan kapanpun kamu mau...</div>
+                      <a href="#" class="btn">Selengkapnya</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="box-numbered-left unit">
+                    <div class="unit-body">
+                        <img src="https://lelogama.go-jek.com/prime/upload/image/driver-goride.svg" alt="">
+                        <div class="content">Bisa nganter kamu kemanapun kamu mau dengan aman dan nyaman... </div>
+                        <a href="#" class="btn">Selengkapnya</a>
+                      </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="box-numbered-left unit">
+                    <div class="unit-body">
+                        <img src="https://lelogama.go-jek.com/prime/upload/image/driver-goride.svg" alt="">
+                        <div class="content">Bantu kamu buat beliin barang atau makanan yang belum terdaftar di KitaGarut</div>
+                        <a href="#" class="btn">Selengkapnya</a>
+                      </div>
+                  </div>
+                </div>
+                <div style="margin-top: 60px;" class="col-md-4">
+                    <div class="box-numbered-left unit">
+                      <div class="unit-body">
+                          <img src="https://lelogama.go-jek.com/prime/upload/image/driver-goride.svg" alt="">
+                          <div class="content">Buat anter barang kamu kemanapun dengan cepat dan aman...</div>
+                          <a href="#" class="btn">Selengkapnya</a>
+                        </div>
+                    </div>
+                  </div>
+              </div>
+            </div>
+          </section>
+
+    <!-- Section Feature -->
+    <section id="features" class=" fitur section features-area ptb_100">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-10 col-lg-8">
+                    <!-- Section Heading -->
+                    <div class="section-heading text-center">
+                        <h2>Keunggulan Gabung <span> <br> Mitra Driver</span></h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-4">
+                    <!-- Icon Box -->
+                    <div style="cursor: pointer;" onclick="document.location='##'" class="icon-box text-center p-4" data-aos="fade-right" data-aos-delay="500" data-aos-duration="1000">
+                        <!-- Featured Icon -->
+                        <div class="featured-icon mb-3">
+                            <img src="images/KitaGarut/Icon Border/Tani Kita.png" alt="" width="100">
+                        </div>
+                        <!-- Icon Text -->
+                        <div class="icon-text">
+                            <h3 class="mb-2">Banyak duit</h3>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus, repellat.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <!-- Icon Box -->
+                    <div style="cursor: pointer;" onclick="document.location='##'" class="icon-box text-center p-4" data-aos="fade-down" data-aos-delay="500" data-aos-duration="1000">
+                        <!-- Featured Icon -->
+                        <div class="featured-icon mb-3">
+                            <img src="images/KitaGarut/Icon Border/Kebun Kita.png" alt="" width="100">
+                        </div>
+                        <!-- Icon Text -->
+                        <div class="icon-text">
+                            <h3 class="mb-2">Banyak duit</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, alias!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <!-- Icon Box -->
+                    <div style="cursor: pointer;" onclick="document.location='##l'" class="icon-box text-center p-4" data-aos="fade-left" data-aos-delay="500" data-aos-duration="1000">
+                        <!-- Featured Icon -->
+                        <div class="featured-icon mb-3">
+                            <img src="images/KitaGarut/Icon Border/Kuliner Kita.png" alt="" width="100">
+                        </div>
+                        <!-- Icon Text -->
+                        <div class="icon-text">
+                            <h3 class="mb-2">Banyak Duit</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, necessitatibus.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <!-- Icon Box -->
+                    <div style="cursor: pointer;" onclick="document.location='##'" class="icon-box text-center p-4" data-aos="fade-right" data-aos-delay="500" data-aos-duration="1000">
+                        <!-- Featured Icon -->
+                        <div class="featured-icon mb-3">
+                            <img src="images/KitaGarut/Icon Border/Ternak Kita.png" alt="" width="100">
+                        </div>
+                        <!-- Icon Text -->
+                        <div class="icon-text">
+                            <h3 class="mb-2">Banyak Relasi</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, repellat.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <!-- Icon Box -->
+                    <div style="cursor: pointer;" onclick="document.location='##'" class="icon-box text-center p-4" data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000">
+                        <!-- Featured Icon -->
+                        <div class="featured-icon mb-3">
+                            <img src="images/KitaGarut/Icon Border/Perikanan Kita.png" alt="" width="100">
+                        </div>
+                        <!-- Icon Text -->
+                        <div class="icon-text">
+                            <h3 class="mb-2">Banyak Relasi</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum, magnam?
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <!-- Icon Box -->
+                    <div style="cursor: pointer;" onclick="document.location='##'" class="icon-box text-center p-4" data-aos="fade-left" data-aos-delay="500" data-aos-duration="1000">
+                        <!-- Featured Icon -->
+                        <div class="featured-icon mb-3">
+                            <img src="images/KitaGarut/Icon Border/Kerajinan Kita.png" alt="" width="100">
+                        </div>
+                        <!-- Icon Text -->
+                        <div class="icon-text">
+                            <h3 class="mb-2">Banyak Relasi</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, voluptatum.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ***** Features Area End ***** -->
+
+    <!-- Footer -->
+    <footer class="section footer-classic mt-5">
+        <div class="footer-classic-main">
+            <div class="container">
+                <div class="row row-50 justify-content-lg-between">
+                    <div class="col-sm-7 col-lg-5 col-xl-3">
+                        <a class="brand" href="index.html"><img src="/images/KitaGarut/logo kitagarut wide.png" alt="" width="148" height="31" /></a>
+                        <p><span style="max-width: 250px;">Kita Garut adalah Platform Aplikasi Digital marketplace sebagai wadah UMKM Garut untuk mempertemukan penjual dan pembeli seluas-luasnya baik di dalam kota maupun luar kota.</span></p><a class="button button-sm button-default-outline button-winona"
+                            href="https://play.google.com/store/apps/details?id=com.mykitabela.kitabela">Download</a>
+                    </div>
+                    <!-- <div class="col-sm-5 col-lg-3 col-xl-2">
+                <h4 class="footer-classic-title">Who We Are</h4>
+                <ul class="list footer-classic-list">
+                  <li><a href="about-us.html">About Us</a></li>
+                  <li><a href="#">Careers</a></li>
+                  <li><a href="#">Our Team</a></li>
+                </ul>
+              </div> -->
+                    <div class="col-sm-7 col-lg-5 col-xl-3">
+                        <h4 class="footer-classic-title">Maps Location</h4>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4707.168527935229!2d107.88759552317838!3d-7.213309814904408!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68b05b09eb0e13%3A0x3d04a084c808d132!2sJl.%20Pembangunan%20No.205%2C%20Sukajaya%2C%20Kec.%20Tarogong%20Kidul%2C%20Kabupaten%20Garut%2C%20Jawa%20Barat%2044151!5e0!3m2!1sid!2sid!4v1643370466190!5m2!1sid!2sid"
+                            width="200" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                    <div class="col-sm-7 col-lg-5 col-xl-3">
+                        <h4 class="footer-classic-title">Links</h4>
+                        <ul style="margin-left: -20px;" class="list footer-classic-list footer-classic-list_2-cols">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Merchant</a></li>
+                            <li><a href="#">Driver</a></li>
+                            <li><a href="#">Help</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-5 col-lg-9 col-xl-2">
+                        <h4 class="footer-classic-title">Kontak Kami</h4>
+                        <div class="row row-20 row-sm-35">
+                            <div class="col-6 col-sm-12 col-lg-8 col-xl-12">
+                                <div class="row row-10 text-default">
+                                    <div style="font-size: 15px;" class="col-lg-6 col-xl-12"><a href="#">Office 1 : <br> <b>Jl. Pembangunan No 250</b> </a></div>
+                                    <div style="font-size: 15px;" class="col-lg-6 col-xl-12"><a href="#">Office 2 : <br> <b>Jl. Cimanuk No 204</b> </a></div>
+                                    <br>
+                                    <br>
+                                    <div class="col-lg-6 col-xl-12"><a href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSBpRVttjjVbCPZRlbJKdLhfbqMSJFXpFlDjDnCZFXqXBJwQxVKwcMlCGPlLLTDqcMStGHQW">kitagarut.oc@gmail.com</a></div>
+                                    <div class="col-lg-6 col-xl-12"><a class="big" href="https://api.whatsapp.com/send/?phone=6281224465989&text=Saya+ingin+tahu+selengkapnya+tentang+kitagarut&app_absent=0">+6281224465989</a></div>
+                                </div>
+                            </div>
+                            <div class="col-6 col-sm-12 col-lg-4 col-xl-12 text-right text-sm-left">
+                                <div class="group group-xs">
+                                    <a class="link link-social-1 mdi mdi-twitter" href="https://twitter.com/kita_garut"></a>
+                                    <a class="link link-social-1 mdi mdi-youtube-play" href="https://www.youtube.com/channel/UC7PhfoUEk_TG0tWhiBEhpIQ"></a>
+                                    <a class="link link-social-1 mdi mdi-facebook" href="https://www.facebook.com/officialkitagarut/"></a>
+                                    <a class="link link-social-1 mdi mdi-instagram" href="https://www.instagram.com/kitagarut/"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-classic-aside">
+            <div class="container">
+                <p>Copyright &#169; 2021 KitaGarut | <a href="">PT. GRAHA KARA DIGITAL</a> </p>
+            </div>
+        </div>
+    </footer>
+    <div class="wasap">
+        <a target="_blank" href="https://api.whatsapp.com/send/?phone=6281224465989&text=Saya+ingin+tahu+selengkapnya+tentang+kitagarut&app_absent=0"> <i class="fab fa-whatsapp"></i></a>
+    </div>
+    </div>
+    </div>
+    <div class="snackbars" id="form-output-global"></div>
+    <script src="/js/core.min.js"></script>
+    <script src="/js/script.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            effect: "cards",
+            grabCursor: true,
+        });
+    </script>
+
+    <script>
+        (function($) {
+            $.fn.timeline = function() {
+                var selectors = {
+                    id: $(this),
+                    item: $(this).find(".timeline-item"),
+                    activeClass: "timeline-item--active",
+                    img: ".timeline__img"
+                };
+                var itemLength = selectors.item.length;
+                $(window).scroll(function() {
+                    var max, min;
+                    var pos = $(this).scrollTop();
+                    selectors.item.each(function(i) {
+                        min = $(this).offset().top;
+                        max = $(this).height() + $(this).offset().top;
+                        var that = $(this);
+                        if (i == itemLength - 2 && pos > min + $(this).height() / 2) {
+                            selectors.item.last().addClass(selectors.activeClass);
+                        } else if (pos <= max - 40 && pos >= min) {
+                            selectors.item.removeClass(selectors.activeClass);
+                            $(this).addClass(selectors.activeClass);
+                        }
+                    });
+                });
+            };
+        })(jQuery);
+
+        $("#timeline-1").timeline();
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js">
+    </script>
+    <script>
+        $('.clients-carousel').owlCarousel({
+            autoplay: true,
+            loop: true,
+            margin: 15,
+            dots: false,
+            slideTransition: 'linear',
+            autoplayTimeout: 4500,
+            autoplayHoverPause: true,
+            autoplaySpeed: 4500,
+            responsive: {
+                0: {
+                    items: 2
+                },
+                500: {
+                    items: 3
+                },
+                600: {
+                    items: 4
+                },
+                800: {
+                    items: 4
+                },
+                1200: {
+                    items: 4
+                }
+
+            }
+        });
+    </script>
+
+    <script>
+        var popup = document.querySelector(".popup");
+        var dismiss = document.querySelector(".popup__dismiss");
+        var shop = document.querySelector(".popup__shop");
+    
+        setTimeout(function(){
+          popup.classList.add("popup--show");
+        },3000);
+    
+        dismiss.addEventListener("click",function(){
+          console.log("kil dismiss");
+          popup.classList.remove("popup--show");
+          popup.classList.add("popup--close");
+        })
+    
+        shop.addEventListener("click",function(){
+          console.log("kil shop");
+          popup.classList.remove("popup--show");
+          popup.classList.add("popup--close");
+          alert("Selamat anda dapat diskon");
+        })
+    
+      </script>
+</body>
+
+</html>
