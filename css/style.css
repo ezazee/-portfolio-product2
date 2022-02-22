@@ -12591,7 +12591,11 @@ padding: 100%
     font-family: 'Poppins';
 }
 
-
+@media only screen and (max-width: 425px){
+	.judul h3{
+        font-size: 30px;
+    }
+}
 
 .btn-merchant{
     display: flex;
